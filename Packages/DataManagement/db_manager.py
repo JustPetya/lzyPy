@@ -3,18 +3,15 @@ import sqlite3 as sql
 
 
 class Mod:
-    def __init__(self):
+    def __init__(self, name):
+        self.db = name
+
+    def user_input(self):
         pass
 
-    def db_generate(self):
-        pass
-
-    def create_tables(self):
-        pass
-
-    def table_generator(self):
+    def gen_tables(self):
         pass
 
 
 if __name__ == "__main__":
-    pass
+    print("Not able to run by itself at this point!")
